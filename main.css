@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-left: 1px;
+    margin-right: 1px;
+    background-color:rgba(255, 68, 0, 0.406);
+    font-family: 'Roboto', sans-serif;
+    background-image: url(./imagens/degrad.jpg);
+    background-size:cover
+}
+header, h1{
+    font-weight: 400;
+    background-color: rgb(85, 4, 120);
+    color: rgb(195, 0, 255);
+    padding: 1px 0;
+    font-family: 'Lobster', cursive;
+}
+section h2, H3{
+    font-weight: 300;
+    color: rgb(174, 0, 255);
+    font-family: 'Lobster', cursive;
+    
+}
+section p{
+    padding: 12px;
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-weight:600;
+    color:rgb(128, 1, 255);
+  
+}
+#contacts .conteiner h2,
+#contacts .conteiner div h3{
+    color: rgb(126, 126, 126);
+}
+
+
+header nav li{
+    display:inline ;
+    margin-left: 16px ;
+    font-size: 18px;
+
+}
+header nav li a{
+    text-decoration: none;
+    color: rgb(195, 0, 255);
+    margin-right: 6px;
+}
+header nav .navheader{
+    padding: 16px 0;
+}
+
+header .conteiner,
+section .conteiner{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+
+}
+.conteiner{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+section img{
+    height: 500px;
+    border: 1px solid orangered;
+}
+.aldeias img{
+    height: 34px;
+    margin: 18px;
+}
+.aldeias li, .aldeias h6{
+    display: inline;
+}
+
+section .conteiner{
+    align-items: flex-start;
+}
+section{
+    padding: 24px 0;
+
+}
+section h2{
+    margin-bottom: 16px;
+    
+}
+section p{
+    margin-bottom: 8px;
+
+}
+.logos-social li{
+    display: inline ;
+    padding: 8px;
+    margin-right: 8px;
+    align-items: center;
+    
+    
+}
+.logonaruto{
+    margin-right: 32px;
+}
+.logos-social img,h3{
+    height: 24px;
+    border: none;
+    margin-bottom: 16px;
+}
+#contacts .conteiner{
+    display: block;
+}
+.contacts-met{
+    display: flex;
+    justify-content: space-between;
+}
+form input,
+form textarea,
+form button{
+    padding: 8px;
+    display: block;
+    margin-bottom: 8px;
+    width: 320px;
+    height: 32px;
+    background-color: black;
+    color: orangered;
+    border: none;
+}
+form textarea{
+    resize: none;
+    height: 128px;
+    font-size: large;
+    border: none;
+}
+form button{
+    border: none;
+    color: yellow;
+    background-color: black;
+    font-size: 16px;
+}
+form button:hover,
+form input:hover,
+form textarea:hover{
+   background-color: blanchedalmond;
+}
+form button:focus,
+form input:focus,
+form textarea:focus{
+    background-color: azure;
+}
+footer p{
+    background-color: rgb(85, 4, 120);
+    color: rgb(231, 170, 250);
+    text-align: center;
+}
+section .venha p a{
+    color: yellow;
+    text-decoration: none;
+    font-size: 14px;
+}
+section .venha h3{
+    text-align: center;
+}
+
